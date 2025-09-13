@@ -1,4 +1,4 @@
-# p1 Site_web_atividade_P1_teste
+#Site_web_atividade_P1_teste
 
 ## Descrição do Projeto
 Este é um site de receitas desenvolvido como atividade prática de HTML e CSS.  
