@@ -128,17 +128,19 @@ body {
 /* ========================
    INÍCIO (HOME HERO)
 ======================== */
-.inicio {
+.inicio, .inicio_2 {
     text-align: center;
     padding: 60px 20px;
     background-color: #fff2f2;
 }
 
-.inicio_2 {
-    text-align: center;
-    padding: 60px 20px;
+.inicio_3 {
+    height: 600px;
+    text-align: left;
+    padding: 30px 10px;
     background-color: #fff2f2;
-    border-radius: 10%;
+    margin-block: 20px;
+    box-shadow: 0 8px 20px rgba(3,3,3,3.3);
 }
 
 
@@ -195,6 +197,20 @@ body {
     font-size: 1.1em;
     transition: transform 0.3s, background-color 0.3s;
 }
+
+.imagem_inicio_2 {
+    width: 500px;
+    margin-left: 1100px;
+    background-color: #ffeaea;
+    border-radius: 12px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    color: #d21033;
+    font-size: 1.2em;
+}
+
+
 
 .imagem-inicio:hover {
     transform: scale(1.05);
@@ -324,6 +340,7 @@ nav {
     padding: 0 20px;
     background-color: #d21033;
     height: 45px;
+    box-shadow: 0 3px 10px rgba(0,0,0,3.0);
 }
 
 nav a {
@@ -340,7 +357,7 @@ nav a:hover {
 .titulo {
     text-align: center;
     margin-top: 20px;
-    margin-left: 64%;
+    margin-left: 61%;
     font-size: 36px;
     color: rgb(255,255,255);
     font-family: 'Arial', sans-serif;
@@ -358,6 +375,7 @@ nav a:hover {
 .ingredientes {
     padding: 20px;
     margin: 15px;
+    font-family: sans-serif;
 }
 
 .conteudo {
@@ -376,4 +394,14 @@ nav a:hover {
     color: #fff;
     margin-top: auto;
     width: 100%;
+}
+
+.footer_2 {
+    text-align: center;
+    padding: 10px;
+    background-color: #282727;
+    color: #fff;
+    margin-top: auto;
+    width: 100%;
+    height: 200px;
 }
