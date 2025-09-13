@@ -35,8 +35,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 2.5rem 10%;
-    gap: 2.5rem;
+    margin: 2.0rem 30%;
+    gap: 2.0rem;
     flex-wrap: wrap;
     flex-direction: row-reverse;
     flex: 1;
@@ -133,6 +133,14 @@ body {
     padding: 60px 20px;
     background-color: #fff2f2;
 }
+
+.inicio_2 {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fff2f2;
+    border-radius: 10%;
+}
+
 
 .inicio h1 {
     font-size: 3em;
