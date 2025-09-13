@@ -45,6 +45,11 @@ body {
 /* ========================
    TEXTO
 ======================== */
+
+.gmail{
+    color: #22d4fd;
+}
+
 .texto-portfolio,
 .descricao-portfolio {
     flex: 1;
@@ -64,7 +69,8 @@ body {
 }
 
 .titulo-destaque {
-    color: #d21033; 
+    color: #d21033;
+    border-bottom: #000;
 }
 
 /* ========================
@@ -85,7 +91,8 @@ body {
 }
 
 .botao-social {
-    width: 23.125rem;
+    width: 23.0rem;
+    height: 2rem;
     color: #000;
     border-radius: 1rem;
     padding: 0.9375rem 0;
@@ -128,10 +135,19 @@ body {
 /* ========================
    INÍCIO (HOME HERO)
 ======================== */
-.inicio, .inicio_2 {
+.inicio{
     text-align: center;
     padding: 60px 20px;
     background-color: #fff2f2;
+}
+
+.inicio_2{
+    text-align: center;
+    padding: 60px 60px;
+    background-color: #fff2f2;
+    border-radius: 25%;
+    width: auto;
+    height: auto;
 }
 
 .inicio_3 {
