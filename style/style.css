@@ -5,6 +5,13 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif
+}
+
+img{
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 /* ========================
@@ -50,7 +57,7 @@ body {
     flex: 1;
     min-width: 15.625rem;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 1.6;
     padding: 1.25rem;
     margin-bottom: 1.25rem;
@@ -58,7 +65,7 @@ body {
 
 .titulo-portfolio {
     font-family: 'Krona One', sans-serif;
-    font-size: 1.75rem;
+    font-size: 27px;
     font-weight: normal;
     margin-bottom: 1.25rem;
 }
@@ -81,7 +88,7 @@ body {
 .titulo-sociais {
     font-family: 'Krona One', sans-serif;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 20px;
 }
 
 .botao-social {
@@ -89,7 +96,7 @@ body {
     color: #000;
     border-radius: 1rem;
     padding: 0.9375rem 0;
-    font-size: 1.125rem;
+    font-size: 18px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -315,6 +322,7 @@ body {
 
 header {
     margin-bottom: 20px;
+    
 }
 
 nav {
@@ -329,7 +337,7 @@ nav {
 nav a {
     text-decoration: none;
     color: rgb(255,255,255);
-    font-size: 21px;
+    font-size: 18px;
     margin: 0 10px;
 }
 
@@ -341,7 +349,7 @@ nav a:hover {
     text-align: center;
     margin-top: 20px;
     margin-left: 64%;
-    font-size: 36px;
+    font-size: 27px;
     color: rgb(255,255,255);
     font-family: 'Arial', sans-serif;
     font-weight: bold;
